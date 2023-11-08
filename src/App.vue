@@ -1,16 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <GuessNumber />
+  <br>
+  <hr>
+  <TakeQRcode />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GuessNumber from './components/GuessNumber.vue'
+import TakeQRcode from './components/TakeQRcode.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    GuessNumber,
+    TakeQRcode,
+  },
 }
 </script>
 
