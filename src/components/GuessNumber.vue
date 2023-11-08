@@ -130,6 +130,7 @@ export default {
         // 去重操作
         answerNum = [...new Set(answerNum)]
         this.answerBase = answerNum
+        console.log(this.answerBase)
       }
       let randNum = Math.floor(Math.random() * this.answerBase.length)
       this.refer = this.answerBase[randNum]
