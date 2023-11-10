@@ -1,0 +1,58 @@
+:root {
+  --dory-gold-1: #a78459;
+  --dory-gold-2: #bfa17c;
+  --dory-gold-3: #bfb2a0;
+  --dory-gold-4: #d3c07b;
+  --dory-gold-5: #d3bda2;
+  --dory-gold-6: #e7d7c3;
+
+  --dory-blue-1: #409eff;
+  --dory-blud-2: #c6e2ff;
+  --dory-blue-3: #ecf5ff;
+
+  --dory-black-1: #2c2c1e;
+  --dory-black-2: #606266;
+
+  --dory-white-1: #ffffff;
+  --dory-white-2: #efefef;
+}
+
+.dory-button-submit {
+  font-size: 14px;
+  padding: 12px 19px;
+  margin: 0 5px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  background: linear-gradient(var(--dory-gold-5), var(--dory-gold-2));
+  color: var(--dory-black-1);
+}
+
+.dory-button-submit:hover {
+  color: var(--dory-white-1);
+  background: linear-gradient(var(--dory-gold-6), var(--dory-gold-2));
+}
+
+.dory-button-cancel {
+  font-size: 14px;
+  padding: 12px 19px;
+  margin: 0 5px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  color: var(--dory-black-2);
+  background-color: var(--dory-white-2);
+}
+
+.dory-button-cancel:hover {
+  color: var(--dory-blue-1);
+  background-color: var(--dory-blue-3);
+}
